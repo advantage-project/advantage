@@ -1,13 +1,13 @@
 # Advantage
 Name : Advantage
 
-Symbol : A
+Symbol : USDA
 
-Algorithm : Artemes（POS）
+Algorithm : PoW + PoS + Masternode
 
 Block time : 60S
 
-Block size : 40MB
+Block size : 40kB
 
 Coin base maturity :  1 block
 
@@ -15,12 +15,12 @@ Diffculty Target : 10 blocks
 
 Stake Minimum Age: 24 Hours
 
-Masternode Requires : 5000 A
+Masternode Requires : 1,000,000 USDA
 
-RPCPORT = 51963
+RPCPORT = 53211
 
-PORT = 36915
+PORT = 11235
 
 Masternode Rewards: 
 
-90% of Block Fees + Stable Block Reward
+25% of Block Fees + Stable Block Reward (1 USDA)
